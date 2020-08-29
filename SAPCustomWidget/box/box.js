@@ -120,8 +120,14 @@
 		}
 
 		onCustomWidgetAfterUpdate(changedProperties) {
-			if ("value" in changedProperties) {
-				this.$value = changedProperties["value"];
+			if ("value1" in changedProperties) {
+				this.$value1 = changedProperties["value1"];
+			}
+			if ("value2" in changedProperties) {
+				this.$value2 = changedProperties["value2"];
+			}
+			if ("value3" in changedProperties) {
+				this.$value3 = changedProperties["value3"];
 			}
 			
 			if ("info" in changedProperties) {

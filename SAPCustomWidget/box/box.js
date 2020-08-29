@@ -138,7 +138,7 @@
 				this.$color = changedProperties["color"];
 			}
 			
-			this.render(this.$value, this.$info, this.$color);
+			this.render(this.$value1, this.$value2, this.$value3, this.$info, this.$color);
 		}
 	}
 	

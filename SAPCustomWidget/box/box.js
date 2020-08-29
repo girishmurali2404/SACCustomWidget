@@ -46,14 +46,26 @@
 		    <div class="col-md-4 col-sm-4">
 		      <div class="metric participation" data-ratio=".95">
 		        <svg viewBox="0 0 1000 500">
-			        <path d="M100 0 L75 100 L225 100 L200 0 Z"></path>
-					<text class='percentage' text-anchor="middle" alignment-baseline="middle" x="150" y="50" font-size="50" font-weight="bold">0</text>
+			        <path d="M150 0 L75 100 L225 100 Z"></path>
+					<text class='percentage' text-anchor="middle" alignment-baseline="middle" x="150" y="60" font-size="50" font-weight="bold">0</text>
 					<text class='title' text-anchor="middle" alignment-baseline="middle" x="500" y="450" font-size="90" font-weight="normal"></text>
-  	            </svg>
+
+					<path d="M75 100 L50 200 L250 200 L225 100 Z"></path>
+					<text class='percentage' text-anchor="middle" alignment-baseline="middle" x="150" y="150" font-size="50" font-weight="bold">0</text>
+					<text class='title' text-anchor="middle" alignment-baseline="middle" x="500" y="450" font-size="90" font-weight="normal"></text>
+
+                    <path d="M50 200 L25 300 L275 300 L250 200 Z"></path>
+					<text class='percentage' text-anchor="middle" alignment-baseline="middle" x="150" y="250" font-size="50" font-weight="bold">0</text>
+					<text class='title' text-anchor="middle" alignment-baseline="middle" x="500" y="450" font-size="90" font-weight="normal"></text>
+
+					
+				</svg>
 		      </div>
 		    </div>
 		  </div>
 		</div>
+		
+
 	`;
 
 	class Box extends HTMLElement {

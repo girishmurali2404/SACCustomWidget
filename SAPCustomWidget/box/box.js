@@ -85,15 +85,19 @@
 			this._props = {};
 		}
 		
-		render(val, info, color) {
-			var val1 = val ;
+		render(val01, val02, val03, info, color) {
+			var val1 = val01 ;
+			var val2 = val02 ;
+			var val3 = val03 ;
 			var x = this.svg_circle_arc_path(500, 500, 450, -90, val1 * 180.0 - 90);
-			var rounded = Math.round( val * 10 ) / 10;
+			var rounded01 = Math.round( val1 * 10 ) / 10;
+			var rounded02 = Math.round( val2 * 10 ) / 10;
+			var rounded03 = Math.round( val3 * 10 ) / 10;
 
 			
 			if(rounded >=0 && rounded <=100) {
 				this.$style.innerHTML = ':host {border-radius: 10px;border-width: 2px;border-color: black;border-style: solid;display: block;}.body {background: #fff;}.metric {padding: 10%;}.metric svg {max-width: 100%;}.metric path {stroke-width: 2;stroke: #ecf0f1;fill: none;}.metric text {font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;}.metric.participation path.data-arc {stroke: ' + color + ';}.metric.participation text {fill: ' + color + ';}';
-				this.$svg.innerHTML = '<path d="M150 0 L75 100 L225 100 Z"></path><text class="percentage" text-anchor="middle" alignment-baseline="middle" x="150" y="60" font-size="50" font-weight="bold">' + rounded + '</text><text class="title" text-anchor="middle" alignment-baseline="middle" x="500" y="450" font-size="90" font-weight="normal">' + info + '</text><path d="' + x + '" class="data-arc"></path>"<path d="M75 100 L50 200 L250 200 L225 100 Z"></path><text class="percentage" text-anchor="middle" alignment-baseline="middle" x="150" y="150" font-size="50" font-weight="bold">' + rounded + '</text><text class="title" text-anchor="middle" alignment-baseline="middle" x="500" y="450" font-size="90" font-weight="normal">' + info + '</text><path d="' + x + '" class="data-arc"></path>"<path d="M50 200 L25 300 L275 300 L250 200 Z"></path><text class="percentage" text-anchor="middle" alignment-baseline="middle" x="150" y="250" font-size="50" font-weight="bold">' + rounded + '</text><text class="title" text-anchor="middle" alignment-baseline="middle" x="500" y="450" font-size="90" font-weight="normal">' + info + '</text><path d="' + x + '" class="data-arc"></path>"';
+				this.$svg.innerHTML = '<path d="M150 0 L75 100 L225 100 Z"></path><text class="percentage" text-anchor="middle" alignment-baseline="middle" x="150" y="60" font-size="50" font-weight="bold">' + rounded01 + '</text><text class="title" text-anchor="middle" alignment-baseline="middle" x="500" y="450" font-size="90" font-weight="normal">' + info + '</text><path d="' + x + '" class="data-arc"></path>"<path d="M75 100 L50 200 L250 200 L225 100 Z"></path><text class="percentage" text-anchor="middle" alignment-baseline="middle" x="150" y="150" font-size="50" font-weight="bold">' + rounded02 + '</text><text class="title" text-anchor="middle" alignment-baseline="middle" x="500" y="450" font-size="90" font-weight="normal">' + info + '</text><path d="' + x + '" class="data-arc"></path>"<path d="M50 200 L25 300 L275 300 L250 200 Z"></path><text class="percentage" text-anchor="middle" alignment-baseline="middle" x="150" y="250" font-size="50" font-weight="bold">' + rounded03 + '</text><text class="title" text-anchor="middle" alignment-baseline="middle" x="500" y="450" font-size="90" font-weight="normal">' + info + '</text><path d="' + x + '" class="data-arc"></path>"';
 }
 		}
 		  

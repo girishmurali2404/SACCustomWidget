@@ -45,7 +45,7 @@
 		  <div class="row">
 		    <div class="col-md-4 col-sm-4">
 		      <div class="metric participation" data-ratio=".95">
-		        <svg viewBox="0 0 1000 500">
+		        <svg viewBox="0 0 1500 700">
 			        <path d="M150 0 L75 100 L225 100 Z"></path>
 					<text class='percentage' text-anchor="middle" alignment-baseline="middle" x="150" y="60" font-size="50" font-weight="bold">0</text>
 					<text class='title' text-anchor="middle" alignment-baseline="middle" x="500" y="450" font-size="90" font-weight="normal"></text>

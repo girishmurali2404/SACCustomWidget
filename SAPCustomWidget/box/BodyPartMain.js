@@ -157,5 +157,5 @@
 		}
 	}
 	
-	customElements.define("com-demo-BodyPart", Box);
+	customElements.define("com-demo-body", Box);
 })();

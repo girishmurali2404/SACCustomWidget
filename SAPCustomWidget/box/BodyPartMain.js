@@ -97,7 +97,7 @@
 			this._props = {};
 		}
 		
-		render(val01, val02, val03, val04, val05) {
+		render(val01, val02, val03, val04, val05, val06) {
 			var val1 = val01 ;
 			var val2 = val02 ;
 			var val3 = val03 ;

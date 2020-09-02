@@ -59,7 +59,7 @@
 				    <text class='percentage' text-anchor="left" alignment-baseline="middle" x="320" y="190" font-size="20" font-weight="bold">40</text>
 					<text class='title' text-anchor="right" alignment-baseline="middle" x="320" y="210" font-size="16" font-weight="normal">Shoulder</text>
 				   
-                    <text class='percentage' text-anchor="left" alignment-baseline="middle" x="60" y="270" font-size="20" font-weight="bold">40</text>
+                                       <text class='percentage' text-anchor="left" alignment-baseline="middle" x="60" y="270" font-size="20" font-weight="bold">40</text>
 					<text class='title' text-anchor="right" alignment-baseline="middle" x="60" y="295" font-size="16" font-weight="normal">Stomach</text>
                     
 					<text class='percentage' text-anchor="left" alignment-baseline="middle" x="320" y="350" font-size="20" font-weight="bold">40</text>
@@ -118,6 +118,7 @@
 			
 			if(rounded01 >=0 && rounded01 <=100) {
 				
+				this.$style.innerHTML = ':host {border-radius: 10px;border-width: 2px;border-color: black;border-style: solid;display: block;}.body {background: #fff;background-image : url("https://girishmurali2404.github.io/SACCustomWidget/SAPCustomWidget/Body%20Parts%20Injured.png") ;background-repeat : no-repeat;height : 622px;width :432px;}.metric {padding: 10%;}.metric svg {max-width: 100%;}.metric path {stroke-width: 2;stroke: #ecf0f1;fill: none;}.metric text {font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;}.metric.participation path.data-arc {}.metric.participation text {}';
 				this.$svg.innerHTML = '<text class="percentage" text-anchor="left" alignment-baseline="middle" x="60" y="113" font-size="20" font-weight="bold">' + rounded01 + '</text><text class="title" text-anchor="right" alignment-baseline="middle" x="60" y="133" font-size="16" font-weight="normal">Head</text><text class="percentage" text-anchor="left" alignment-baseline="middle" x="320" y="190" font-size="20" font-weight="bold">' + rounded02 + '</text><text class="title" text-anchor="right" alignment-baseline="middle" x="320" y="210" font-size="16" font-weight="normal">Shoulder</text><text class="percentage" text-anchor="left" alignment-baseline="middle" x="60" y="270" font-size="20" font-weight="bold">' + rounded03 + '</text><text class="title" text-anchor="right" alignment-baseline="middle" x="60" y="295" font-size="16" font-weight="normal">Stomach</text><text class="percentage" text-anchor="left" alignment-baseline="middle" x="320" y="350" font-size="20" font-weight="bold">' + rounded04 + '</text><text class="title" text-anchor="right" alignment-baseline="middle" x="320" y="370" font-size="16" font-weight="normal">Hand</text><text class="percentage" text-anchor="left" alignment-baseline="middle" x="60" y="430" font-size="20" font-weight="bold">' + rounded05 + '</text><text class="title" text-anchor="right" alignment-baseline="middle" x="60" y="450" font-size="16" font-weight="normal">Leg</text><text class="percentage" text-anchor="left" alignment-baseline="middle" x="320" y="530" font-size="20" font-weight="bold">' + rounded06 + '</text><text class="title" text-anchor="right" alignment-baseline="middle" x="320" y="550" font-size="16" font-weight="normal">Foot</text>';
 					
 

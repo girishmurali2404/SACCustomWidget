@@ -109,7 +109,8 @@
 			var rounded03 = Math.round( val3 * 10 ) / 10;
 			var rounded04 = Math.round( val4 * 10 ) / 10;
 			var rounded05 = Math.round( val5 * 10 ) / 10;
-			var rounded05 = Math.round( val6 * 10 ) / 10;
+			var rounded06 = Math.round( val6 * 10 ) / 10;
+			
 			var color = "green";
 			var info = 'Fatality';
 			

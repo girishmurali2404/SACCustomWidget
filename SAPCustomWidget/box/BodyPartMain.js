@@ -11,7 +11,7 @@
 		} 
 		body {
 		  background: #fff;
-		  background-image : url("https://girishmurali2404.github.io/SACCustomWidget/SAPCustomWidget/Body%20Parts%20Injured.png") ;
+		  background-image : url("https://girishmurali2404.github.io/SACCustomWidget/SAPCustomWidget/BodyPartsInjured.png") ;
 		  background-repeat : no-repeat;
 		  height : 622px;
 		  width :432px;
